@@ -8,6 +8,8 @@
 *.log
 *.log.*
 *.sig
-
-pkg/
-src/
+*.pyc
+*~
+__pycache__/
+*.csv
+*.jpg
