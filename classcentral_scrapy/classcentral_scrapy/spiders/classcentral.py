@@ -11,6 +11,7 @@ Run:
 scrapy crawl classcentral
 scrapy crawl classcentral -a subject='Programming'
 scrapy crawl classcentral -a subject="Art & Design" -o art_and_design.csv
+scrapy crawl classcentral -o all.csv
 """
 
 class ClasscentralSpider(Spider):#scrapy.Spider):
